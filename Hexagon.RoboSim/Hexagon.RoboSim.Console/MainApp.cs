@@ -98,7 +98,7 @@ namespace Hexagon.RoboSim.Console
                 }
                 try
                 {
-                    var result = _service.ProcessCommand(command);
+                    var result = _service.ProcessCommand(command.Trim());
                     if (!string.IsNullOrEmpty(result))
                         System.Console.WriteLine(result);
                 }
@@ -118,8 +118,10 @@ namespace Hexagon.RoboSim.Console
 
                 foreach (var command in commands)
                 {
-                    System.Console.WriteLine($"Performing :{command}");
-                    var result = _service.ProcessCommand(command);
+                    if(string.IsNullOrWhiteSpace(command.Trim())) continue;
+
+                    System.Console.WriteLine($"Performing :{command.Trim()}");
+                    var result = _service.ProcessCommand(command.Trim());
                     if (!string.IsNullOrEmpty(result))
                         System.Console.WriteLine(result);
                 }
