@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hexagon.RoboSim.Movement.Engine\Hexagon.RoboSim.Movement.Engine.csproj" />
+  </ItemGroup>
+
+</Project>

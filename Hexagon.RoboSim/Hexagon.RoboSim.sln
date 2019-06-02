@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.RoboSim.Console", "Hexagon.RoboSim.Console\Hexagon.RoboSim.Console.csproj", "{F3204114-72C5-4453-A9FE-929CE6437FC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.RoboSim.Movement.Engine", "Hexagon.RoboSim.Movement.Engine\Hexagon.RoboSim.Movement.Engine.csproj", "{61E3A536-A99B-4955-B0C4-BE8F8F48A837}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.RoboSim.Models", "Hexagon.RoboSim.Models\Hexagon.RoboSim.Models.csproj", "{22E6BF87-CF7F-4BFA-96A5-3299D2477EEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.RoboSim.Services", "Hexagon.RoboSim.Services\Hexagon.RoboSim.Services.csproj", "{314F27EB-ADC5-426E-B150-01C1557633B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagon.RoboSim.Movement.Engine.UnitTests", "Hexagon.RoboSim.Movement.Engine.UnitTests\Hexagon.RoboSim.Movement.Engine.UnitTests.csproj", "{C491E8BB-5142-486B-8580-6AD3BD1F9C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexagon.RoboSim.Services.UnitTests", "Hexagon.RoboSim.Services.UnitTests\Hexagon.RoboSim.Services.UnitTests.csproj", "{BB53551D-23BC-4192-936A-0D71CDB7668A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3204114-72C5-4453-A9FE-929CE6437FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3204114-72C5-4453-A9FE-929CE6437FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3204114-72C5-4453-A9FE-929CE6437FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3204114-72C5-4453-A9FE-929CE6437FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E3A536-A99B-4955-B0C4-BE8F8F48A837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E3A536-A99B-4955-B0C4-BE8F8F48A837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E3A536-A99B-4955-B0C4-BE8F8F48A837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E3A536-A99B-4955-B0C4-BE8F8F48A837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E6BF87-CF7F-4BFA-96A5-3299D2477EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E6BF87-CF7F-4BFA-96A5-3299D2477EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E6BF87-CF7F-4BFA-96A5-3299D2477EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E6BF87-CF7F-4BFA-96A5-3299D2477EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314F27EB-ADC5-426E-B150-01C1557633B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314F27EB-ADC5-426E-B150-01C1557633B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314F27EB-ADC5-426E-B150-01C1557633B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314F27EB-ADC5-426E-B150-01C1557633B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C491E8BB-5142-486B-8580-6AD3BD1F9C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C491E8BB-5142-486B-8580-6AD3BD1F9C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C491E8BB-5142-486B-8580-6AD3BD1F9C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C491E8BB-5142-486B-8580-6AD3BD1F9C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB53551D-23BC-4192-936A-0D71CDB7668A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB53551D-23BC-4192-936A-0D71CDB7668A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB53551D-23BC-4192-936A-0D71CDB7668A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB53551D-23BC-4192-936A-0D71CDB7668A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28C6C6FC-FFEE-40BA-8730-1591DD96E382}
+	EndGlobalSection
+EndGlobal

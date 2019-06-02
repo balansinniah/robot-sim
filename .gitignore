@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/robot-sim/v16
+/Hexagon.RoboSim/.vs/Hexagon.RoboSim
+/Hexagon.RoboSim/Hexagon.RoboSim.Console/bin/Debug/netcoreapp2.2
+/Hexagon.RoboSim/Hexagon.RoboSim.Console/obj
+/.vs
+/Hexagon.RoboSim/Hexagon.RoboSim.Desktop
+/Hexagon.RoboSim/Hexagon.RoboSim.Models/bin/Debug/netstandard2.0
+/Hexagon.RoboSim/Hexagon.RoboSim.Models/obj
+/Hexagon.RoboSim/Hexagon.RoboSim.Movement.Engine/bin/Debug/netstandard2.0
+/Hexagon.RoboSim/Hexagon.RoboSim.Movement.Engine/obj
+/Hexagon.RoboSim/Hexagon.RoboSim.Movement.Engine.UnitTests/bin/Debug/netcoreapp2.1
+/Hexagon.RoboSim/Hexagon.RoboSim.Movement.Engine.UnitTests/obj
+/Hexagon.RoboSim/Hexagon.RoboSim.Services/bin/Debug/netstandard2.0
+/Hexagon.RoboSim/Hexagon.RoboSim.Services/obj
+/Hexagon.RoboSim/Hexagon.RoboSim.Services.UnitTests/bin/Debug/netcoreapp2.1
+/Hexagon.RoboSim/Hexagon.RoboSim.Services.UnitTests/obj

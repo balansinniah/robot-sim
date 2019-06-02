@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Hexagon.RoboSim.Console": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Environment": "Development"
+      }
+    }
+  }
+}
